@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stayle.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <title>Portfolio </title>
+</head>
+<body>
+  <div id="header">
+<div class="container ">
+    <nav>
+      <h2 class="logo">Portfolio</h2>
+      <ul>
+        <li><a href="#homee">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+    </div>
+  
+  <section class="home" id="homee">
+    <div class="content">
+      <h2>Hi I am Tanzila </h2>
+      <h3>Front End Developer</h3>
+      <p class="text">Equipped with a solid understanding of JavaScript, HTML, and CSS, I am eager to leverage my skills to create responsive and visually appealing user interfaces.Motivated and enthusiastic React.js fresher with a strong foundation in web development and a keen interest in front-end technologies.</p>
+   <a href="file:///C:/Users/lenovo/Downloads/Tanzila's%20Resume%20(11).pdf"><button class="btn">Download cv</button></a>
+    </div>
+    <div class="content-img">
+     <!-- <div class="glowing-circle">
+        <div class="Image">
+          <img src="image/3.png">
+        </div>
+      </div>-->
+      <img class="IMG" src="image/10.png">
+    </div>
+  </section>
+  <section class="about">
+    <div class="PIC">
+       <img class="IMG1" src="image/12.png">
+    </div>
+    <div class="ABOUT content" id="about">
+      <h2>About Me</h2>
+      <p>With a strong problem-solving mindset and a passion for creating seamless user experiences, I am ready to embark on a rewarding career in React.js development.</p>
+      <div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button" onclick="london()">Skills</button>
+        <button class="w3-bar-item w3-button" onclick="paris()">Training</button>
+        <button class="w3-bar-item w3-button" onclick="tokyo()">Education</button>
+      </div>
+      
+      <div id="London" class="progress-section">
+        <div class="task-progress">
+          <p>HTML
+            <span>80%</span>
+          </p>
+          <progress class="progress progress1" max="100" value="80"></progress>
+        </div>
+        <div class="task-progress">
+          <p>CSS
+            <span>75%</span>
+          </p>
+          <progress class="progress progress2" max="100" value="75"></progress>
+        </div>
+        <div class="task-progress">
+          <p>BOOTSTRAP
+            <span>80%</span>
+          </p>
+          <progress class="progress progress3" max="100" value="80"></progress>
+        </div>
+        <div class="task-progress">
+          <p>JAVASCRIPT
+            <span>60%</span>
+          </p>
+          <progress class="progress progress1" max="100" value="60"></progress>
+        </div>
+        <div class="task-progress">
+          <p>REACT JS
+            <span>50%</span>
+          </p>
+          <progress class="progress progress1" max="100" value="50"></progress>
+        </div>
+      </div>
+      
+      <div id="Paris" class="w3-container city" style="display:none">
+        <ul>
+          <li><span>B-Tech</span><br>SCRIET:2020</li>
+          <li><span>B-Tech</span><br>SCRIET:2020</li>
+          <li><span>B-Tech</span><br>SCRIET:2020</li>
+         </ul>
+      </div>
+      
+      <div id="Tokyo" class="w3-container city" style="display:none">
+       <ul>
+        <li><span>B-Tech</span><br>SCRIET:2020</li>
+        <li><span>B-Tech</span><br>SCRIET:2020</li>
+        <li><span>B-Tech</span><br>SCRIET:2020</li>
+       </ul>
+      </div>
+  </section>
+  
+     
+  <section class="projects" id="projects">
+    <h2 class="projects-title"> Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img
+          src="image/16.jpeg"
+          alt="expense-tracker"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Expense Tracker</h3>
+        <p class="project-details">
+          This is resturant site design with the help of HTML,CSS,BOOTSTRAP
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="image/15.jpeg"
+          alt="netflic-clone"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Netflix Clone</h3>
+        <p class="project-details">
+          This is makeup artist site design with the help of HTML,CSS,BOOTSTRAP,JAVASCRIPT
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+      <div class="project-container project-card">
+        <img
+          src="image/14.jpeg"
+          alt="greeny-earth"
+          loading="lazy"
+          class="project-pic"
+        />
+        <h3 class="project-title">Greeny Earth</h3>
+        <p class="project-details">
+          This site clone of techystar-topaz website ,this site create with React JS
+        </p>
+        <a href="#" target="_blank" class="project-link">Check it Out</a>
+      </div>
+    </div>
+    </section>
+  
+  <div class="Contact" id="contact">
+    <div class="container cont">
+   <div class="row">
+      <div class="leftcontent"><h1 class="sub-title">Contact Me</h1>       
+<p><i class="fa fa-envelope" aria-hidden="true"></i>tanzila.usmani.tanzu10@gmail.com</p>
+        <p><i class="fa fa-phone" aria-hidden="true"></i>
+          6386775607</p>
+        <div class="socialicons">
+          <a href="#"><i class="fa fa-linkedin" style="font-size:18px;"></i></a>
+          <a href="#"><i class="fa fa-github" style="font-size:18px;"></i></a>
+          <a href="#"><i class="fa fa-facebook" style="font-size:18px;"></i></a>
+          <a href="#"><i class="fa fa-linkedin" style="font-size:18px;"></i></a>
+
+        </div>
+      </div>
+      <div class="rightcontent"> <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      
+        <input type="submit" value="Submit">
+      </form></div>
+    </div>
+  </div>
+</div>
+  
+  <script src="message.js"></script>
+</body>
+</html>
