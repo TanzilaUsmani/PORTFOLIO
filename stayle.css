@@ -417,7 +417,7 @@ img{
                                   font-weight: 400;
                               }
                               nav{
-                                display: none;
+                                display: block;
                               }
                               .content p{
                                 font-size: 10px;
